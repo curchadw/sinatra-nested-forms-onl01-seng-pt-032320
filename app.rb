@@ -1,6 +1,6 @@
 require './environment'
 
-module FormsLab
+# module FormsLab
   class App < Sinatra::Base
     get '/' do
       erb :root
@@ -22,4 +22,4 @@ module FormsLab
     end
 
   end
-end
+# end
